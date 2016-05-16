@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- do not localise, we want english and greek together -->
+    <array name="suggestions_terms">
+        <item>"Restaurants"</item>
+        <item>"Bars"</item>
+        <item>"Holiday Apartments"</item>
+        <item>"Hotels"</item>
+        <item>"Cafes"</item>
+        <item>"Night Clubs"</item>
+        <item>"General Shops"</item>
+        <item>"Tourist Attractions"</item>
+        <item>"Health Centres"</item>
+        <item>"Doctors"</item>
+        <item>"Dentists"</item>
+        <item>"Car Hire"</item>
+        <item>"Bike Hire"</item>
+        <item>"Banks"</item>
+        <item>"Post Offices"</item>
+        <item>"Taxis"</item>
+        <item>"Petrol Stations"</item>
+        <item>"Vehicle Repair"</item>
+        <item>"Kiosks, Tobacconists"</item>
+        <item>"Fast Food"</item>
+        <item>"Tattoos"</item>
+        <item>"Clothes Shops"</item>
+        <item>"Tools / Hardware Shops"</item>
+        <item>"Garden Centres"</item>
+        <item>"Super Markets"</item>
+        <item>"Tourist Shops"</item>
+        <item>"Boat Hire / Trips"</item>
+        <item>"Bakeries"</item>
+        <item>"Travel Agents"</item>
+        <item>"Camping / Caravan Sites"</item>
+        <item>"Hairdressers / Beauty Salons"</item>
+        <item>"Estate Agents"</item>
+        <item>"Chemists / Pharmacies"</item>
+        <item>"Home and Building Services"</item>
+
+
+
+
+
+
+        <item>"Εστιατόρια"</item>
+        <item>"Μπάρες"</item>
+        <item>"Διαμερίσματα διακοπών"</item>
+        <item>"Ξενοδοχεία"</item>
+        <item>"Καφετέριες"</item>
+        <item>"Κλαμπ"</item>
+        <item>"Μαγαζιά"</item>
+        <item>"Αξιοθέατα"</item>
+        <item>"Κέντρα Υγείας"</item>
+        <item>"Γιατροί"</item>
+        <item>"Οδοντίατροι"</item>
+        <item>"Ενοικίαση Αυτοκινήτων"</item>
+        <item>"Ενοικίαση Μοτοσικλετών"</item>
+        <item>"Τράπεζες"</item>
+        <item>"Ταχυδρομεία",</item>
+        <item>"Ταξί"</item>
+        <item>"Βενζινάδικα"</item>
+        <item>"Μηχανικοί Οχημάτων"</item>
+        <item>"Περίπτερα"</item>
+        <item>"Φαστ Φουντ"</item>
+        <item>"Τατουάζ"</item>
+        <item>"Καταστήματα Ρούχων"</item>
+        <item>"Καταστήματα Υλικού"</item>
+        <item>"Κηποτέχνες"</item>
+        <item>"Σουπερμάρκετς"</item>
+        <item>"Καταστήματα Τουρίστες"</item>
+        <item>"Ενοικίαση βάρκας / Ταξίδια"</item>
+        <item>"Αρτοποιεία"</item>
+        <item>"Ταξιδιωτικά Γραφεία"</item>
+        <item>"Κάμπινγκ Τοποθεσίες"</item>
+        <item>"Κομμωτήρια / Κέντρα Αισθητικής"</item>
+        <item>"Μεσιτικά Γραφεία"</item>
+        <item>"Φαρμακεία"</item>
+        <item>"Σπίτι και Κτίριο Υπηρεσιών"</item>
+
+    </array>
+
+</resources>

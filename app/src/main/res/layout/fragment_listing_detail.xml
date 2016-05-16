@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/blue_box"
+        android:padding="6dp"
+        android:layout_margin="20dp"
+        >
+        <TextView
+            android:id="@+id/listing_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/default_button_padding"
+            android:paddingRight="@dimen/default_button_padding"
+            android:layout_margin="@dimen/default_button_margin"
+            android:textColor="@color/list_text_color"
+            android:textSize="@dimen/title_text"
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/listing_detail_no_results"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/default_button_padding"
+        android:layout_margin="20dp"
+        android:background="@drawable/yellow_box"
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/default_padding"
+            android:paddingLeft="@dimen/default_padding"
+            android:paddingRight="@dimen/default_padding"
+            android:layout_margin="@dimen/default_margin"
+            android:textColor="@color/list_text_color"
+            android:textSize="@dimen/title_text"
+            android:text="@string/no_results"
+            />
+    </LinearLayout>
+
+    <ListView android:id="@+id/pic_list"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:padding="@dimen/default_button_padding"
+        android:layout_margin="@dimen/default_button_margin"
+        />
+
+</LinearLayout>

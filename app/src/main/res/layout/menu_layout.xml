@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/yellow_box"
+        android:layout_margin="@dimen/default_margin"
+        android:padding="@dimen/default_padding"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blue_box"
+            android:layout_marginBottom="@dimen/default_margin"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/logo_text"
+                android:scaleType="fitCenter"
+                android:padding="@dimen/default_button_padding"
+                android:contentDescription="@string/default_content_description"
+                />
+
+        </LinearLayout>
+        <AutoCompleteTextView
+            android:id="@+id/searchTerm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/search_button_hint"
+            android:inputType="text"
+            android:singleLine="true"
+            />
+
+        <Spinner
+            android:id="@+id/locationTerm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"
+            tools:ignore="UnusedAttribute"
+            />
+
+        <Button
+            android:id="@+id/searchButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_button_margin"
+            android:background="@drawable/default_button"
+            android:paddingTop="@dimen/default_button_padding"
+            android:paddingBottom="@dimen/default_button_padding"
+            android:paddingRight="40dp"
+            android:paddingLeft="40dp"
+            android:text="@string/search_button_text"
+            android:textColor="@color/default_button_text"
+            />
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/default_padding"
+                    android:textSize="@dimen/title_text"
+                    android:text="@string/frontpage_blurb_title"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/default_padding"
+                    android:textSize="@dimen/default_text"
+                    android:text="@string/frontpage_blurb"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/default_padding"
+                    android:textSize="@dimen/default_text"
+                    android:text="@string/frontpage_blurb2"
+                    />
+
+                <Button
+                    android:id="@+id/web_link"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/default_text"
+                    android:text="@string/frontpage_blurb3"
+                    android:layout_margin="@dimen/default_button_margin"
+                    android:background="@drawable/transparent"
+                    android:paddingBottom="@dimen/default_button_padding"
+                    android:paddingTop="@dimen/default_button_padding"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:textColor="@color/default_button_text"
+                    />
+
+                <TextView
+                    android:id="@+id/version"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/default_padding"
+                    android:textSize="@dimen/default_text"
+
+                    />
+
+                <Button
+                    android:id="@+id/icon_link"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="@string/icon_link"
+                    android:layout_margin="@dimen/default_button_margin"
+                    android:background="@drawable/transparent"
+                    android:textColor="@color/default_button_text"
+                    />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+ 	<color name="background">#FFFFFFFF</color>
+	<color name="list_text_color">#FF333333</color>
+	<color name="default_text_color">#FF333333</color>
+	<color name="background_blue">#FF71D4F3</color>
+	<color name="background_blue_border">#FF71D4F3</color>
+    <color name="background_yellow">#FFFED900</color>
+    <color name="background_yellow_border">#FFFED933</color>
+	<color name="default_button_bg">#FFFE6C00</color>
+	<color name="default_button_pressed">#FFFE6C22</color>
+	<color name="default_button_focused">#FFFE6C11</color>
+	<color name="default_button_disabled">#FFCCCCCC</color>
+    <color name="default_button_border">#FF000000</color>
+	<color name="default_button_text">#FF000000</color>
+
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Corfu Pages</string>
+    <string name="please_wait">Please Wait</string>
+
+    <string name="loading_error">Sorry, Corfu Pages failed to load. Please check your internet settings</string>
+    <string name="location_error">Location is not enabled, please enable location services in your device settings (a phone / tablet restart may be required) or choose a place from the list.</string>
+    <string name="play_not_connected">Sorry, you need Google Play installed to search around you, please choose a location from the list.</string>
+    <string name="default_content_description">a nice picture</string>
+    <string name="search_button_text">Find Stuff</string>
+    <string name="search_button_hint">e.g Restaurants, Mechanics</string>
+    <string name="loading">Loading results</string>
+    <string name="results">Results for </string>
+    <string name="anything">Anything</string>
+    <string name="ok">OK</string>
+    <string name="no_results">Sorry, no results were found, please try changing your search terms.</string>
+
+
+    <string name="main_phone">Telephone</string>
+    <string name="mobile_phone">Mobile</string>
+    <string name="email">Email</string>
+    <string name="website">Website</string>
+    <string name="fax">Fax</string>
+    <string name="facebook">Facebook</string>
+    <string name="trip_adviser">Trip Adviser</string>
+    <string name="price_list">Price List</string>
+
+
+    <string name="website_error">Error opening website</string>
+    <string name="booking_page_error">Error opening booking page</string>
+    <string name="email_subject">I found your business on CorfuPages.com</string>
+    <string name="email_chooser">Send email</string>
+
+    <string name="loading_more">Loading More.....</string>
+    <string name="near">near</string>
+
+    <string name="frontpage_blurb_title">Corfu Pages</string>
+    <string name="frontpage_blurb">Τhe new guide to businesses and services in Corfu, in English and Greek. Corfu Pages is free, and always will be.</string>
+    <string name="frontpage_blurb2">If you have a business in Corfu, Greece, you can add it to this app for free:</string>
+    <string name="frontpage_blurb3">Visit CorfuPages.com for more information</string>
+
+    <string name="version">version</string>
+    <string name="book_now">Book Now!!</string>
+
+    <string name="not_correct_location_alert">The \"Around Me\" search will display the businesses closest to you if you are actually in Corfu.</string>
+
+    <string name="icon_link">Icons thanks to icons8.com</string>
+    <string name="meter_single">meter</string>
+    <string name="meter_plural">meters</string>
+    <string name="kilometer_single">kilometer</string>
+    <string name="kilometer_plural">kilometers</string>
+
+</resources>

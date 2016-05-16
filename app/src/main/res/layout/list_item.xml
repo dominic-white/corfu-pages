@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:background="@drawable/yellow_box"
+    android:layout_margin="@dimen/default_button_margin"
+    android:padding="@dimen/default_button_padding"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/list_item_image_view"
+        android:layout_height="@dimen/icon_size"
+        android:layout_width="@dimen/icon_size"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:contentDescription="@string/default_content_description"
+        android:padding="4dp"
+        android:scaleType="centerInside"
+        />
+
+    <TextView
+        android:id="@+id/list_item_title"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/list_item_image_view"
+        android:padding="@dimen/list_padding"
+        android:textColor="@color/list_text_color"
+        android:textSize="@dimen/title_text"
+        android:singleLine="true"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/list_item_short_description"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_toRightOf="@id/list_item_image_view"
+        android:layout_below="@id/list_item_title"
+        android:padding="@dimen/list_padding"
+        android:textColor="@color/list_text_color"
+        android:textSize="@dimen/default_text"
+        android:singleLine="true"
+
+        tools:ignore="RtlHardcoded" />
+
+
+    <TextView
+        android:id="@+id/list_category_location"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/list_item_image_view"
+        android:padding="@dimen/list_padding"
+        android:textColor="@color/list_text_color"
+        android:textSize="@dimen/default_text"
+        android:singleLine="true"
+        />
+
+    <TextView
+        android:id="@+id/list_distance"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/list_category_location"
+        android:padding="@dimen/list_padding"
+        android:textColor="@color/list_text_color"
+        android:textSize="@dimen/default_text"
+
+        android:singleLine="true"
+        />
+
+
+    <ProgressBar
+        android:id="@+id/list_item_spinner"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:padding="4dp"
+        />
+
+    <TextView
+        android:id="@+id/loading_text_view"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/list_item_spinner"
+        android:layout_toEndOf="@id/list_item_spinner"
+        android:padding="@dimen/list_padding"
+        android:textColor="@color/list_text_color"
+        android:textSize="@dimen/title_text"
+        android:singleLine="true"
+        android:text="@string/loading_more"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_window_focused="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/default_radius"/>
+            <solid android:color="@color/default_button_bg"/>
+            <stroke android:width="1px" android:color="@color/default_button_border"/>
+        </shape>
+    </item>
+    <item android:state_pressed="true" android:state_focused="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/default_radius"/>
+            <solid android:color="@color/default_button_pressed"/>
+            <stroke android:width="1px" android:color="@color/default_button_border"/>
+
+        </shape>
+    </item>
+    <item android:state_pressed="true" android:state_focused="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/default_radius"/>
+            <solid android:color="@color/default_button_pressed"/>
+            <stroke android:width="1px" android:color="@color/default_button_border"/>
+
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/default_radius"/>
+            <solid android:color="@color/default_button_focused"/>
+            <stroke android:width="1px" android:color="@color/default_button_border"/>
+
+        </shape>
+    </item>
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/default_radius"/>
+            <solid android:color="@color/default_button_disabled"/>
+            <stroke android:width="1px" android:color="@color/default_button_border"/>
+
+        </shape>
+    </item>
+</selector>

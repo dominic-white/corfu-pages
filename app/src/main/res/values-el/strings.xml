@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Corfu Pages</string>
+
+    <string name="please_wait">Παρακαλώ περιμένετε.</string>
+
+    <string name="loading_error">Δυστυχώς, υπήρχε ένα πρόβλημα. Παρακαλώ ελέγξτε τις ρυθμίσεις σας στο Internet.</string>
+    <string name="location_error">Υπηρεσίες τοποθεσίας δεν είναι ανοιχτό</string>
+    <string name="play_not_connected">Δυστυχώς, πρέπει να έχετε το Google Play για να ψάξετε γύρω σας</string>
+    <string name="default_content_description">μια ωραία εικόνα</string>
+    <string name="search_button_text">Αναζήτηση</string>
+    <string name="search_button_hint">π.χ. εστιατόρια, μηχανικοί</string>
+    <string name="loading">κατέβασμα</string>
+    <string name="results">αποτελέσματα για </string>
+    <string name="anything">οτιδήποτε</string>
+    <string name="ok">ok</string>
+    <string name="no_results">Δυστυχώς δεν υπάρχουν αποτελέσματα. Παρακαλώ αλλάξτε τα λόγια σας.</string>
+
+
+    <string name="main_phone">τηλέφωνο</string>
+    <string name="mobile_phone">κινητό</string>
+    <string name="email">Email</string>
+    <string name="website">ιστοσελίδα</string>
+    <string name="fax">Φαξ</string>
+    <string name="facebook">Facebook</string>
+    <string name="trip_adviser">Trip Advisor</string>
+    <string name="price_list">Τιμοκατάλογος</string>
+
+
+    <string name="website_error">Ένα σφάλμα συνέβη</string>
+    <string name="booking_page_error">Ένα σφάλμα συνέβη</string>
+    <string name="email_subject">I found your business on CorfuPages.com</string>
+    <string name="email_chooser">στείλετε e-mail</string>
+
+    <string name="loading_more">περισσότερο.....</string>
+    <string name="near">κοντά</string>
+
+    <string name="frontpage_blurb_title">Corfu Pages</string>
+    <string name="frontpage_blurb">Ο νέος οδηγός για τις επιχειρήσεις και τις υπηρεσίες στην Κέρκυρα, στα αγγλικά και στα ελληνικά. Corfu Pages είναι δωρεάν, και πάντα θα είναι.</string>
+    <string name="frontpage_blurb2">Εάν έχετε μια επιχείρηση στην Κέρκυρα, Ελλάδα, μπορείτε να προσθέσετε σε αυτό το app δωρεάν:</string>
+    <string name="frontpage_blurb3">Επισκεφθείτε CorfuPages.com για περισσότερες πληροφορίες</string>
+
+    <string name="version">version</string>
+    <string name="book_now">Κάνετε κράτηση τώρα!!</string>
+
+    <string name="not_correct_location_alert">Η \"Γυρω μου\" αναζήτηση θα εμφανίσει τα πράγματα κοντά σας, αν είστε πραγματικά στην Κέρκυρα.</string>
+
+    <string name="icon_link">Για εικονίδια ευχαριστούμε για την icons8.com</string>
+
+    <string name="meter_single">μέτρο</string>
+    <string name="meter_plural">μέτρα</string>
+    <string name="kilometer_single">χιλιόμετρο</string>
+    <string name="kilometer_plural">χιλιόμετρα</string>
+</resources>

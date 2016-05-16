@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bip_scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/default_padding"
+        >
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|top"
+            android:background="@drawable/blue_box"
+            android:padding="@dimen/default_padding"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/title_native"
+                android:layout_marginRight="@dimen/default_margin"
+                android:layout_marginEnd="@dimen/default_margin"
+                android:textSize="@dimen/title_text"
+                android:padding="@dimen/default_padding"
+                android:textColor="@color/default_text_color"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:id="@+id/bip_category_location"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:padding="@dimen/default_padding"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:textColor="@color/default_text_color"
+                android:textSize="@dimen/default_text"
+
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/default_text"
+                android:padding="@dimen/default_padding"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:textColor="@color/default_text_color"
+                android:id="@+id/address1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/default_text"
+                android:padding="@dimen/default_padding"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:textColor="@color/default_text_color"
+                android:id="@+id/address2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/default_text"
+                android:padding="@dimen/default_padding"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:textColor="@color/default_text_color"
+                android:id="@+id/postcode" />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/default_text"
+                android:background="@drawable/default_button"
+                android:padding="@dimen/default_button_padding"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:textColor="@color/default_button_text"
+                android:id="@+id/main_phone"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/default_text"
+                android:textColor="@color/default_button_text"
+                android:background="@drawable/default_button"
+                android:padding="@dimen/default_button_padding"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:id="@+id/mobile_phone"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/default_text"
+                android:textColor="@color/default_text_color"
+                android:padding="@dimen/default_padding"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:id="@+id/fax" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/default_text"
+                android:textColor="@color/default_button_text"
+                android:background="@drawable/default_button"
+                android:padding="@dimen/default_button_padding"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:id="@+id/book_now_button"
+                android:text="@string/book_now"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/default_text"
+                android:textColor="@color/default_text_color"
+                android:padding="@dimen/default_padding"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:id="@+id/short_description" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/default_text"
+                android:padding="@dimen/default_padding"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:textColor="@color/default_text_color"
+                android:id="@+id/long_description" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/default_text"
+                android:padding="@dimen/default_padding"
+                android:textColor="@color/default_text_color"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:id="@+id/price_list" />
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/map_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/map_height"
+            >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/map_height"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="@dimen/default_margin"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:id="@+id/map"
+                />
+
+            <ImageView
+                android:id="@+id/transparent_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/transparent"
+                android:contentDescription="@string/default_content_description"
+
+                />
+        </RelativeLayout>
+
+        <com.bridge187.corfupages.ux.FlowLayout
+            android:id="@+id/gallery_flow_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/default_padding"
+            android:layout_marginBottom="@dimen/default_margin"
+            />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/default_padding"
+                >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/default_text"
+                    android:textColor="@color/default_button_text"
+                    android:background="@drawable/default_button"
+                    android:padding="@dimen/default_button_padding"
+                    android:id="@+id/email_button" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/default_padding"
+                >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/default_text"
+                    android:textColor="@color/default_button_text"
+                    android:background="@drawable/default_button"
+                    android:padding="@dimen/default_button_padding"
+                    android:id="@+id/website_button" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/default_padding"
+                >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/default_text"
+                    android:textColor="@color/default_button_text"
+                    android:background="@drawable/default_button"
+                    android:padding="@dimen/default_button_padding"
+                    android:id="@+id/facebook_button" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/default_padding"
+                >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/default_text"
+                    android:background="@drawable/default_button"
+                    android:textColor="@color/default_button_text"
+                    android:padding="@dimen/default_button_padding"
+                    android:id="@+id/trip_adviser_button" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+

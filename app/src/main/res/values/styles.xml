@@ -1,0 +1,8 @@
+<resources>
+
+    <style name="CorfuPagesTheme" parent="android:Theme.Light.NoTitleBar">
+        <!-- <item name="android:panelFullBackground">@color/whiteTranslucent</item> -->
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:colorBackground">@color/background</item>
+    </style>
+</resources>
